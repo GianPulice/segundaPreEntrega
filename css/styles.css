@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+*{
+    font-family: 'Abel', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.layoutGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:  auto 1.5fr 1fr 1.5fr auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "main main main main"
+    "footer footer footer footer";
+}
+/* estilos header */
+.gridA {
+    grid-area: header;
+    background-color:rgb(124, 35, 35);
+}
+
+.genNav{
+    display:inline-block;
+    color: black;
+    font-size: 1.5rem;
+    padding-left: 4%;
+}
+
+/* estilos main */
+.gridB {
+    grid-area: main;
+    background-color: rgb(226, 226, 226);
+}
+
+.texBienvenida{
+    position: absolute;
+    z-index: 1;
+    color:aliceblue;
+    font-size: 1.8rem;
+}
+
+.txth2{
+    position: absolute;
+    z-index: 1;
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin-top: 40%;
+    margin-left: 55%;
+}
+
+.flexGal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.videoLoop{
+    height: 100%;
+    width: 1320px;
+}
+
+/* estilos footer */
+.gridC {
+    grid-area: footer;
+    background-color:rgb(124, 35, 35);
+}
+
+.flexFooter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+
+.tamLogoEA{
+    height: 10vh;
+}
+
+.tamLogoApex{
+    height: 9vh;
+}
