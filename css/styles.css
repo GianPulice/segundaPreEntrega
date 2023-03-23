@@ -70,8 +70,8 @@
 }
 
 .leyendas:hover{
-    border: 3%;
-    border-color: tomato;
+    height: 45%;
+    width: 30%;
 }
 
 .videoLoop{
