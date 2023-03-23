@@ -64,9 +64,19 @@
     
 }
 
+.leyendas{
+    height: 40%;
+    width: 25%;
+}
+
+.leyendas:hover{
+    border: 3%;
+    border-color: tomato;
+}
+
 .videoLoop{
     height: 100%;
-    width: 1320px;
+    width: 69.45%;
 }
 
 /* estilos footer */
