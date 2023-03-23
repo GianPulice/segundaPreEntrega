@@ -70,8 +70,7 @@
 }
 
 .leyendas:hover{
-    height: 45%;
-    width: 30%;
+    background-color: crimson;
 }
 
 .videoLoop{
